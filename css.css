@@ -1,0 +1,871 @@
+.container {
+    max-width: 1150px;
+    /*background-image: linear-gradient(to left, wheat 0%, wheat 0%, lightgoldenrodyellow 100%);*/
+    border-radius: 5rem;
+    align-items: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif
+
+}
+.mediom-container {
+    width: 20rem;
+    margin-left: 2rem;
+}
+.small-container {
+    width: 18rem;
+    margin-left: 2rem;
+}
+.one-section .nav-bar {
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.one-section .nav-bar .image {
+    margin-right: 9rem;
+}
+.one-section .nav-bar .option a {
+text-decoration-line: none;
+    color:#0c2e60;
+text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+}
+.one-section .nav-bar .option a:hover {
+color:crimson;
+}
+.one-section .nav-bar .btn {
+    width: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 0%, #ee390f 100%);
+   border-radius: 3rem;
+color: white;
+    text-decoration-line: none;
+    text-align: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+
+}
+.one-section .nav-bar .btn a:hover{
+background-image: linear-gradient(to left, #ee390f 100%, #f9b700 51%, #ee390f 44%);
+}
+ /*end the section one*/
+
+/*the start section tow*/
+
+.tow-section .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tow-section .intro .text-intro p {
+    text-transform: uppercase;
+    color: #0c2e60;
+font-size: .8rem;
+    font-family: "Poppins", sans-serif
+
+}
+.tow-section .intro .text-intro .title-text {
+    width: 500px;
+    height: 150px;
+    font-size: 54px;
+    font-weight: 700;
+    color: #0c2e60;
+    font-family: "Poppins", sans-serif;
+     padding-right: 4rem ;
+}
+.tow-section .intro .text-intro .text {
+    opacity: .6;
+    font-size: .8rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    line-height: 1.7;
+    margin-bottom: 5rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.tow-section .intro .text-intro .button {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+    margin: 2rem .3rem 2rem .3rem;
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 0%, #ee390f 100%);
+    border-radius: 3rem;
+    color: white;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif
+
+}
+
+.tow-section .intro .text-intro .button:hover {
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 100%, #ee390f 100%);
+}
+.tow-section .intro .text-intro .buttonn {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    margin: 2rem .3rem 2rem .3rem;
+    border-radius: 3rem;
+    color:#0c2e60;
+    background: white;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    border: 1px solid #0c2e60;
+    font-family: "Poppins", sans-serif   ;
+}
+
+.tow-section .intro .text-intro .buttonn:hover {
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 100%, #ee390f 100%);
+}
+
+.tow-section .intro .image {
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 3rem ;
+}
+
+/*end section tow*/
+/*              * & & & * * * * * * * * * & & & & & & & ^ ^ ^ ^ ^ ^ ^ ^ t o w */
+/*start section three*/
+ .three-section {
+     margin-top: 5rem;
+ }
+.three-section .groub-of-card {
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-section .groub-of-card .awson {
+  width: 17rem;
+    height: 22rem;
+
+}
+
+.three-section .groub-of-card .awson .title-awson {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif   ;
+    color: #0c2e60;
+
+}
+.three-section .groub-of-card .awson .text-awson {
+  opacity: .8;
+   line-height: 1.8;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    font-size:14px;
+}
+.three-section .groub-of-card .awson .btn-awson {
+   padding: 1rem 2.5rem 1rem 2.5rem;
+     margin: 2rem .3rem 2rem .3rem;
+    border-radius: 3rem;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif ;
+        background-image: linear-gradient(to left, #ee390f 0%, #f9b700 0%, #ee390f 100%);
+text-decoration-line: none;
+    color: white;
+}
+.three-section .groub-of-card .awson .btn-awson:hover {
+  background-image: linear-gradient(to right, #ee390f 0%, #f9b700 0%, #ee390f 100%);
+
+
+}
+.three-section .groub-of-card .groub-card {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.three-section .groub-of-card .card {
+text-align: center;
+    width:16rem ;
+    height: 18rem ;
+    padding-top: 5rem;
+    margin: 0 1rem 0 1rem;
+    border: 2px solid honeydew;
+}
+.three-section .groub-of-card .card:hover{
+    border: 2px solid orangered;
+}
+.three-section .groub-of-card .card .ti-pencil-alt {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+    background: #f0f4f6;
+}
+
+.three-section .groub-of-card .card i {
+    padding: 0 .2rem 0 .2rem;
+}
+.three-section .groub-of-card .card .ti-pencil-alt:hover{
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 100%, #ee390f 100%);
+    color: white;
+}
+.three-section .groub-of-card .card .title-card {
+    color: #0c2e60;
+    font-weight: 700;
+    margin-top: 4rem;
+    opacity: .9;
+        font-family: "Poppins", sans-serif   ;
+    font-size: 1.5rem;
+
+}
+.three-section .groub-of-card .card .text-card {
+opacity: .8;
+    margin-top: 3rem;
+}
+/*end section tow*/
+/*/ * & & & * * * * * * * * * & & & & & & & ^ ^ ^ ^ ^ ^ ^ ^ t o w *!                  */
+/*start section three*/
+.for-section {
+         margin-top: 5rem;
+}
+.for-section .std {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.for-section .std .image {
+   margin-right: 5rem ;
+}
+.for-section .std .text-for {
+    margin-right: 4rem;
+}
+.for-section .std .text-for .line{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+    align-self:auto;
+}
+.for-section .std .text-for .line .lin {
+    width:65px;
+    height: 1.5px;
+    background:  #ee390f;
+    margin-right: 1rem;
+}
+.for-section .std .text-for .line .p {
+display: block}
+.for-section .std .text-for .title-section {
+    font-weight: 700;
+    font-size: 42px;
+ font-family: "Poppins", sans-serif   ;
+    color: #0c2e60;
+    margin-top: 1rem;
+}
+.for-section .std .text-for .text {
+    opacity:.8;
+       line-height: 1.8;
+        color: slategrey;
+          margin-top: 2rem;
+}
+
+.for-section .std .text-for .p {
+    opacity: .8 ;
+    color: slategrey;
+}
+.for-section .std .text-for .pp {
+    opacity: .8;
+    color: slategrey;
+    margin-bottom: 3rem;
+}
+.for-section .std .text-for .button {
+    width: 12rem ;
+padding : 1rem 2rem 1rem 2rem;
+background-image: linear-gradient(to left, #ee390f 0%, #f9b700 100%, #ee390f 100%);
+  border-radius: 3rem;
+    text-decoration-line: none;
+    color: white;
+    transition: background-color 1s;
+}
+.for-section .std .text-for .button:hover {
+ background-image: linear-gradient(to right , #ee390f 0%, #f9b700 100%, #ee390f 100%);
+}
+
+
+/*xfczfdsfsdfgdfgdf*/
+
+
+/*^&%&$%^$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+.number{
+    align-items: center;
+    align-self: center;
+    font-family:"Lucida Console",  sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 100%, #ee390f 100%);
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.number .stop-wacth {
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 5rem;}
+
+.number .stop-wacth .hour p {
+font-size: 2rem;
+}
+.number .stop-wacth .second p {
+font-size: 2rem;
+}
+.number .stop-wacth .min p{
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+.number .stop-wacth .ml-second p {
+    font-size: 2rem;
+}
+.number .stop-wacth-button {
+    margin-top: 3rem;
+    width: 600px;
+    text-align: center;
+}
+.number .stop-wacth-button button:first-child {
+    border: 2px solid limegreen;
+    border-radius: 5px;
+    margin-right: 2rem;
+    background: black;
+    color: white;
+    padding : 1rem 2rem ;
+    cursor: pointer;
+}
+.number .stop-wacth-button button:last-child{
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-right: 2rem;
+    background: black;
+    color: white;
+    padding : 1rem 2rem ;
+    cursor: pointer;
+}
+
+/*xfczfdsfsdfgdfgdf*/
+
+
+/*^&%&$%^$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-section .title-one {
+opacity: .9;
+    color: #0c2e60;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+.card-section .title-two {
+font-weight: 700;
+    font-size: 45px;
+    color: #0c2e60;
+    margin: 1rem 0 1rem 0;
+
+}
+.card-section .line {
+    width: 6rem;
+    height: .1rem;
+    background: orangered;
+    margin: 2rem 0 4rem 33rem;
+}
+
+.card-section .groub-of-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.card-section .groub-of-card .card {
+width: 22.5rem;
+    text-align: left;
+    border: .5px solid thistle;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem 1rem 0 0 ;
+
+}
+.card-section .groub-of-card .card .image {
+    margin-bottom: 1rem;
+    border-radius: 1rem 1rem 0 0 ;
+}
+.card-section .groub-of-card .card .first-card {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.card-section .groub-of-card .card .first-card .button {
+    width: 10rem;
+    text-align: center;
+    font-weight: 500 ;
+    font-size: .8rem;
+    text-decoration-line: none;
+    color: white;
+align-self: center;
+    align-items: center;
+background: #ee390f;
+padding: .46rem 0 .46rem 0;
+    opacity: .8;
+}
+.card-section .groub-of-card .card .first-card .button:hover {
+    opacity: .6;
+}
+.card-section .groub-of-card .card .first-card p {
+    color: orangered;
+    font-weight: 700;
+}
+
+.card-section .groub-of-card .card .title-card {
+    text-decoration-line: none;
+    color:#0c2e60;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: right;
+}
+.card-section .groub-of-card .card .text-card {
+    font-size: .8rem;
+    opacity: .7;
+    margin-top: 1.2rem;
+    line-height: 1.7;
+
+}
+.card-section .groub-of-card .card .line-two {
+    width: 18rem;
+    opacity: .5;
+    height: .05rem;
+background:silver;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card .end-card  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .end-card .Adress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .end-card .star {
+    margin-right: 3rem;
+    margin-bottom: .5rem;
+}
+.card .end-card .star img {
+    width: 10px;
+    padding: -5px -5px -5px -5px;
+}
+
+.card .end-card .Address .text {
+opacity: .8;
+    text-transform: capitalize;
+}
+
+.card-section .card .end-card .Address .Name {
+    text-transform: capitalize;
+    color: #0c2e60;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+
+/*end section card*/
+
+/*start section seven*/
+
+.seven-section {
+    margin-top: 5rem;
+}
+.seven-section .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seven-section .nav-bar .line-text {
+    display: flex;
+    flex-direction: row;
+justify-content: right;
+}
+.seven-section .nav-bar .line-text .line {
+    width: 7px;
+    height: 3px;
+    color: #ee390f;
+}
+.seven-section .nav-bar .line-text .text-line {
+    opacity: .8;
+    font-size: .8rem;
+    color: #0c2e60;
+    font-family: "Poppins", sans-serif   ;
+    font-weight: 500;
+}
+.seven-section .nav-bar .title-text {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #0c2e60;
+    margin-top: 1rem;
+}
+.seven-section .nav-bar .text {
+opacity: .6;
+    margin-top: 3rem;
+line-height: 1.7;
+}
+.seven-section .nav-bar .tow-card {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+align-items: center;
+margin-top: 3rem;
+}
+.seven-section .nav-bar .tow-card .card {
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.seven-section .nav-bar .tow-card .card .img {
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.seven-section .nav-bar .tow-card .card .img i {
+    width: 5rem;
+    height: 5rem;
+    background: #0c2e60;
+}
+.seven-section .nav-bar .tow-card .card .title-card {
+    color: #0c2e60;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.seven-section .nav-bar .tow-card .card .text-card {
+    opacity:.8;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*end section seven*/
+/*start section boot*/
+
+.boot-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.boot-section .text-boot {
+font-size: 1rem;
+    opacity: .9;
+    font-weight: 500;
+    color: #0c2e60;
+    margin: 1rem 1rem 1rem 1rem;
+}
+.boot-section .title-boot {
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: #0c2e60;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.boot-section .line {
+    width: 10px;
+    height: 1px;
+    color: #ee390f;
+margin: 1rem 1rem 1rem 1rem;
+}
+.boot-section .groub-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.boot-section .groub-card .card {
+    width: 22rem;
+height: 14rem;
+    border: 1px solid silver;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.boot-section .groub-groub-of-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boot-section .groub-groub-of-card:hover {
+    margin-right: -20rem ;
+}
+.boot-section .groub-card .card .text {
+    opacity: .8;
+    line-height: 1.5;
+}
+.boot-section .groub-card .card .text-big {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.boot-section .groub-card .image {
+width: 18rem;
+    height: 14rem;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*****************************************
+*********************************************************************************
+ */
+
+.three-card {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.three-card .small-title {
+    opacity: .8;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.three-card .title {
+    font-size: 45px;
+    font-weight: 700;
+line-height: 1.2;
+    color: #0c2e60;
+}
+.three-card .line {
+    width: 60px;
+    height: 2.5px;
+    background: #ee390f;
+    margin-left: 33rem;
+    margin-top: 2rem;
+    padding-right: 2rem;
+}
+.three-card .groub-of-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.three-card .groub-of-card .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 22.49rem;
+    height: 38rem;
+    border-radius: 1rem 1rem 0 0;
+    margin-top: 3rem;
+    border: .8px solid lightsteelblue;
+}
+.three-card .groub-of-card .card .img {
+    border-radius: 1rem 1rem 0 0 ;
+    margin-bottom: 2rem;
+    padding-bottom: 5rem;
+
+}
+.three-card .groub-of-card .card .first-card {
+    margin-top: 2rem;
+}
+.three-card .groub-of-card .card .first-card .button {
+    width: 8rem;
+    padding: .6rem 2rem .6rem 2rem;
+    background: #ee390f;
+    color: white;
+    text-decoration-line: none;
+    text-align: center;
+    font-size: 1rem;
+margin-top: 2rem;
+    transition: 1s;
+}
+.three-card .groub-of-card .card .button:hover {
+    opacity: .8;
+}
+.three-card .groub-of-card .card .title-card {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0c2e60;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+.three-card .groub-of-card .card .title-card a {
+    text-decoration-line: none;
+    transition: 1s;
+color: #0c2e60;
+}
+.three-card .groub-of-card .card .title-card a:hover {
+    color: #ee390f;
+}
+.three-card .groub-of-card .card .text-card {
+    opacity: .7;
+    line-height: 1.8;
+    font-size: .9rem;
+    margin: 2rem 0 1rem 0;
+
+
+}
+.three-card .groub-of-card .card .line {
+    width: 18rem;
+    margin-top: 1.8rem;
+height: .8px;
+background: lightsteelblue;
+    opacity: .8;
+}
+.three-card .groub-of-card .card .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: .7;
+}
+.three-card .groub-of-card .card .icon .like {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.three-card .groub-of-card .card .icon .like p {
+    font-size: .8rem;
+    margin-left: .5rem;
+}
+.three-card .groub-of-card .card .icon .comment p {
+    font-size: .8rem;
+    margin-left: .5rem;
+}
+.three-card .groub-of-card .card .icon .comment {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.smull-container {
+    width: 18rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+/***********************************************8888*/
+/*******************************************/
+.end-section {
+   padding-top: 8rem;
+    padding-bottom: 10rem;
+    margin-top: 4rem;
+    background: #f7f7f7;
+}
+.end-section .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.end-section .nav-bar .first .logo {
+margin-bottom: 3.4rem;
+}
+.end-section .nav-bar .first .text-first {
+opacity:.7;
+    color: darkslategrey;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.end-section .nav-bar .first .text-twofirst {
+opacity: .5;
+}
+.end-section .nav-bar .second {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width: 22rem;
+}
+.end-section .nav-bar .second .title {
+font-weight: 700;
+    font-size: 1.8rem;
+color: #0c2e60;
+    margin-bottom: 2rem;
+}
+.end-section .nav-bar .second .text-second {
+    opacity: .8;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.end-section .nav-bar .second .input-box {
+    display: flex;
+    flex-direction: row;
+}
+.end-section .nav-bar .second .input {
+    height: 2.1rem;
+padding-right: 10rem;
+}
+.end-section .nav-bar .second .button {
+width: 2.5rem;
+    height: 2.5rem;
+    background: #ee390f;
+}
+.end-section .nav-bar .second .groub-of-icon{
+    display: flex;
+    flex-direction:row ;
+    justify-content: left;
+    align-items: center;
+}
+.end-section .nav-bar .second .groub-of-icon i {
+    margin-right: .6rem;
+    margin-top: 1rem;
+}
+
+.end-section .nav-bar .hand-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 24rem;
+}
+.end-section .nav-bar .hand-about .title-about {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #0c2e60;
+    margin-bottom: 2rem;
+}
+.end-section .nav-bar .hand-about .text {
+    line-height: 2;
+    opacity: .8;
+    margin-top: 3rem;
+}
+
+
+/*
+
+
+*/
+
+
+.a-no-style{
+    text-decoration: none;
+    color: inherit;
+}
